@@ -571,6 +571,13 @@ class FlameTongue(Greatsword):
     base_damage = "4d6"
     damage_type = 'f'
 
+class PactWeapon(Longsword):
+    name = "PactWeapon"
+    damage_bonus = 1
+    attack_bonus = 1
+    base_damage = "d8"
+    damage_type = 's'
+    properties = 'Versatile (1d10)'
 
 class SpearOfLightning(Spear):
     name = "Spear +1"
