@@ -21,7 +21,7 @@ background = "Mercenary Veteran"
 race = "Half-Elf"
 alignment = "Chaotic neutral"
 
-xp = 23000
+xp = 0
 hp_max = 67
 inspiration = 0  # integer inspiration value
 
@@ -46,7 +46,10 @@ skill_expertise = ()
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ('Improved Pact Weapon', 'Thirsting Blade', 'Tricksters Escape', 'Eldritch Smite',)
+features = ('Improved Pact Weapon', 'Thirsting Blade', 'Tricksters Escape', 'Eldritch Smite',
+            #Feats
+            'Luck',
+            )
 
 # If selecting among multiple feature options: ex Fighting Style
 # Example (Fighting Style):
@@ -62,11 +65,11 @@ languages = """Common, Elvish, Dwarven"""
 
 # Inventory
 # TODO: Get yourself some money
-cp = 0
-sp = 0
+cp = 42
+sp = 27
 ep = 0
-gp = 0
-pp = 0
+gp = 400
+pp = 4
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["PactWeapon", "Dagger", "Shortsword"]  # Example: ('shortsword', 'longsword')
@@ -77,16 +80,20 @@ shield = "Shield"  # Eg "shield"
 equipment = """Dungeoneers Pack(Backpack, Crowbar, Hammer, 10 Torches, tinderbox, 10 rations, Waterskin, 10 Kletterhacken, 50ft. hemp Rope)
                Decke/Schlafrolle, Component Pouch,Uniform (travelers quality, Rot/Dunkel Blau), Fine Clothing (grün/schwarz), 2 Hemden trav. qual., 
                Spalleder Stiefel, Waffenöl, Strohhut, Winterkleidung, schwarzer Mantel
+               
+               * 1000 Gold Nicodemus --> Mantle
+               * 500g investment Glasbläserei
 """
 
 attacks_and_spellcasting = """HexBlade ist Spellcasting Focus"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ('Eldritch Blast', 'Minor Illusion', 'Prestidigitation', 'Armor of Agathys', 'Hex', 'Arms of Hadar', 'Suggestion', 'Vampiric Touch', 'Hunger of Hadar', 'Dimension Door', 'Charm Monster',)
+spells_prepared = ('Shield', 'Wrathful Smite', 'Blur', 'Branding Smite', 'Blink', 'Elemental Weapon', 'Phantasmal Killer', 'Staggering Smite',  # Warlock Spells
+    'Eldritch Blast', 'Minor Illusion', 'Prestidigitation', 'Armor of Agathys', 'Hex', 'Arms of Hadar', 'Suggestion', 'Vampiric Touch', 'Hunger of Hadar', 'Dimension Door', 'Charm Monster',)
 
 # Which spells have not been prepared
-__spells_unprepared = ('Shield', 'Wrathful Smite', 'Blur', 'Branding Smite', 'Blink', 'Elemental Weapon', 'Phantasmal Killer', 'Staggering Smite', )
+__spells_unprepared = ()
 
 # all spells known
 spells = spells_prepared + __spells_unprepared
@@ -104,4 +111,26 @@ bonds = """Those who fight besides me are those worth dying for"""
 
 flaws = """Confined spaces remind me of the battlefield fray and leave me quivering with fear"""
 
-features_and_traits = """Hello there."""
+features_and_traits = """Aussehen: 
+
+* halb Elf, Hoch gewachsen, drahtig
+
+* Schulter lange, schwarze Haare mit leichtem grau auf der linken Seite (Narbe), an den Seiten rasiert, zum Zopf gebunden
+
+* Helle haut, auffallend helle, graue/wässrige Augen, stechend (eventuell etw. unangenehm)
+
+* linkes Ohr abgeschnitten, vernarbt
+
+* Narbe geht ins Gesicht, wird aber von Bart verdeckt
+
+* Gepflegter Vollbart (kurz geschnitten), leicht grauer Einschlag auf der linken Seite (Narbe)
+
+* Trägt Uniform Mantel (Rot, Dunkel Blau)
+
+* Tattoo Schulter: Tropfende Blut Rote Welle (Kompanie)
+
+* Leder Hose, Hemd
+
+* Knie Hohe Stiefel, leder, gut gepflegt
+
+* Tattoo an Unterarmen (hinten) Schwert & Schild (re/li)"""
