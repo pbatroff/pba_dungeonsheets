@@ -90,7 +90,8 @@ attacks_and_spellcasting = """HexBlade ist Spellcasting Focus"""
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
 spells_prepared = ('Shield', 'Wrathful Smite', 'Blur', 'Branding Smite', 'Blink', 'Elemental Weapon', 'Phantasmal Killer', 'Staggering Smite',  # Warlock Spells
-    'Eldritch Blast', 'Minor Illusion', 'Prestidigitation', 'Armor of Agathys', 'Hex', 'Arms of Hadar', 'Suggestion', 'Vampiric Touch', 'Hunger of Hadar', 'Dimension Door', 'Charm Monster',)
+    'Eldritch Blast', 'Minor Illusion', 'Prestidigitation', 'Armor of Agathys', 'Hex', 'Arms of Hadar', 'Suggestion',
+    'Vampiric Touch', 'Dimension Door', 'Charm Monster', 'Sickening Radiance', 'Summon Greater Demon', )
 
 # Which spells have not been prepared
 __spells_unprepared = ()
