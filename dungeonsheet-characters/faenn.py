@@ -15,7 +15,7 @@ player_name = "Phil"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [7]  # ex: [10] or [3, 2]
+levels = [8]  # ex: [10] or [3, 2]
 subclasses = ["Hexblade Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Mercenary Veteran"
 race = "Half-Elf"
@@ -69,7 +69,7 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Sword of Sharpness", "Dagger", "Shortsword"]  # Example: ('shortsword', 'longsword')
+weapons = ["PactWeapon", "Dagger", "Shortsword"]  # Example: ('shortsword', 'longsword')
 magic_items = ('Scutum of the Seventh Legion','Sword of sharpness',)  # Example: ('ring of protection',)
 armor = "Half Plate"  # Eg "leather armor"
 shield = "Shield"  # Eg "shield"
@@ -83,10 +83,10 @@ attacks_and_spellcasting = """HexBlade ist Spellcasting Focus"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ()  # Todo: Learn some spells
+spells_prepared = ('Eldritch Blast', 'Minor Illusion', 'Prestidigitation', 'Armor of Agathys', 'Hex', 'Arms of Hadar', 'Suggestion', 'Vampiric Touch', 'Hunger of Hadar', 'Dimension Door', 'Charm Monster',)
 
 # Which spells have not been prepared
-__spells_unprepared = ()
+__spells_unprepared = ('Shield', 'Wrathful Smite', 'Blur', 'Branding Smite', 'Blink', 'Elemental Weapon', 'Phantasmal Killer', 'Staggering Smite', )
 
 # all spells known
 spells = spells_prepared + __spells_unprepared
