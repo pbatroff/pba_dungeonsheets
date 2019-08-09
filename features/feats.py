@@ -35,3 +35,40 @@ class Actor(Feature):
     """
     name = "Actor"
     source = "Feats"
+
+class Luck(Feature):
+    """You have inexplicable luck that seems to kick in at just
+        the right moment.
+
+        You have 3 luck points. Whenever you make an attack
+        roll, an ability check, or a saving throw, you can spend
+        one luck point to roll an additional d20. You can choose
+        to spend one of your luck points after you roll the die,
+        but before the outcome is determined. You choose which
+        of the d20s is used for the attack roll, ability check, or
+        saving throw.
+        You can also spend one luck point when an attack
+        roll is made against you. Roll a d20, and then choose
+        whether the attack uses the attacker's roll or yours.
+        If more than one creature spends a luck point to
+        influence the outcome of a roll, the points cancel each
+        other out; no additional dice are rolled.
+        You regain your expended luck points when you
+        finish a long rest.
+    """
+    name = "Luck"
+    source = "Feats"
+
+
+class InspiringLeader(Feature):
+    """You can spend 10 minutes inspiring your companions,
+        shoring up their resolve to fight. When you do so, choose
+        up to six friendly creatures (which can include yourself)
+        within 30 feet of you who can see or hear you and who
+        can understand you. Each creature can gain temporary
+        hit points equal to your level + your Charisma modifier.
+        A creature can't gain temporary hit points from this feat
+        again until it has finished a short or long rest.
+    """
+    name = "Inspiring Leader"
+    source = "Feats"
